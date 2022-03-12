@@ -1,8 +1,12 @@
 // import logo from './logo.svg';
-import './App.css';
-import Matrix from './Matrix';
-import Timer from './Timer';
-
+import "./App.css";
+import Matrix from "./Matrix";
+import Timer from "./Timer";
+import Fibo from "./Fibo";
+import UseMemo from "./UseMemo";
+import MemoUse from "./MemoUse";
+import Text from "./Text";
+// import DigitTimer from './DigitTimer';
 
 function App() {
   return (
@@ -21,8 +25,24 @@ function App() {
           Learn React
         </a>
       </header> */}
-      <Timer/>
-      <Matrix/>
+      <Timer />
+      <Matrix />
+      <Fibo />
+      {/* <DigitTimer/> */}
+      <br />
+      <br />
+      <br />
+      <MemoUse />
+      <br />
+      <br />
+      <br />
+      <br />
+      <UseMemo />
+      <br />
+      <br />
+      <br />
+      <br />
+      <Text />
     </div>
   );
 }

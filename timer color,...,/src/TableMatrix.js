@@ -19,12 +19,12 @@ export default function TableMatrix({ matrix }) {
                         <tr key={index}>
                                {(item.map((el,i)=>{
                                    console.log(el);
-                                   return <td key={i}>{el}</td>
+                                   return (<td key={i}>{el}</td>)
                                }))}
                         </tr>
                     );
                 }
-                   
+                return true;
             })}
       </tbody>
     </table>
